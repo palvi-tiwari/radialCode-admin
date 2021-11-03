@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+:root {
+  /* colors  */
+  --color-blue: #042954;
+  --color-darkblue: #051f3e;
+  --color-white: #ffffff;
+  --color-dark-yellow: #ffa802;
+  --color-black: #000000;
+  --color-red: #e11a1a;
+  --color-green: #00c163;
+  --color-lightyellow: #efd700;
+  --color-purple: #9102ea;
+  --color-grey: #c4c4c4;
+  --color-light-grey: #ededed;
+  --color-brown: #2d2632;
+  --color-yellow: #ffa701;
+  --color-light-black: #212529;
+
+  /* font size */
+  --font-16: 16px;
+  --font-12: 12px;
+  --font-14: 14px;
+  --font-20: 20px;
+  --font-15: 15px;
+  --font-22: 22px;
+  --font-30: 30px;
+  /*  */
+}
+/* media query */
+@media (max-width: 991px) {
+  :root {
+    --font-16: 14px;
+    --font-12: 11px;
+    --font-14: 12px;
+    --font-20: 18px;
+    --font-15: 13px;
+    --font-22: 20px;
+    --font-30: 27px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --font-16: 13px;
+    --font-12: 10px;
+    --font-14: 11px;
+    --font-20: 17px;
+    --font-15: 12px;
+    --font-22: 19px;
+    --font-30: 25px;
+  }
+}
+@media (max-width: 567px) {
+  :root {
+    --font-16: 11px;
+    --font-12: 9px;
+    --font-14: 10px;
+    --font-20: 15px;
+    --font-15: 12px;
+    --font-22: 15px;
+    --font-30: 20px;
+  }
+}
+
+/* custom classes */
+.table-column-text {
+  color: var(--color-black);
+  opacity: 0.7;
+  font-size: var(--font-16);
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+.field-text {
+  color: var(--color-black);
+  opacity: 0.5;
+  font-size: var(--font-16);
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+.table-heading-text {
+  color: var(--color-black);
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: var(--font-16);
+}
+.light-enquiry-text {
+  font-size: var(--font-16);
+  font-weight: normal;
+  color: var(--color-light-black);
+  font-family: "Roboto", sans-serif;
+}
+.heading-text {
+  font-size: var(--font-20);
+  font-weight: 500;
+  color: var(--color-black);
+  font-family: "Poppins", sans-serif;
+}
+.small-heading-text {
+  font-size: var(--font-14);
+  font-family: "Poppins", sans-serif;
+  color: var(--color-black);
+  font-weight: normal;
+}
